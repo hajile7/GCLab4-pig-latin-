@@ -28,7 +28,7 @@ while (runProgram) {
      * punctuation to be included in our user input so long as the punctuation doesn't push the first vowel outside of the
      * first 5 spots. Could hard code more cases, but assuming there is more efficient way
      */
-    string[] words = word.Split(" "); //create an array of strings isolate the words in a provided sentence
+    string[] words = word.Split(" "); //create an array of strings to isolate the words in a provided sentence
     foreach (string w in words) //use a foreach loop to run each word in the array through the vowelSpot code and sorting conditionals
     {
         int vowelSpot = -1; //initialize our counter for the vowelSpot loop
@@ -47,7 +47,7 @@ while (runProgram) {
         string beforeLetters = "";
         string afterLetters = "";
 
-        //hard coded line checking for special characters. Could not get a functioning solution using ascii/unicode or the .IsSymbol method. .IsPuncutation didn't get me there either.
+        //special character + number check
         if (hasNumber(w) || hasSpecialCharacters(w))
         {
             translatedWord = w;
