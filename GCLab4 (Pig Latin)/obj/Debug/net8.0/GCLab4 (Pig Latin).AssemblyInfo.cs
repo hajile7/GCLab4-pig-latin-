@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GCLab4 (Pig Latin)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6bdaef100f13d888b866558dc8ca73da74e837c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdb068869924c0fc8ba739b96de6bc82c0017d63")]
 [assembly: System.Reflection.AssemblyProductAttribute("GCLab4 (Pig Latin)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GCLab4 (Pig Latin)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elire\\source\\repos\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin).csproj": {}
+    "C:\\Users\\elire\\source\\repos\\GC Labs\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin).csproj": {}
   },
   "projects": {
-    "C:\\Users\\elire\\source\\repos\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin).csproj": {
+    "C:\\Users\\elire\\source\\repos\\GC Labs\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elire\\source\\repos\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin).csproj",
+        "projectUniqueName": "C:\\Users\\elire\\source\\repos\\GC Labs\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin).csproj",
         "projectName": "GCLab4 (Pig Latin)",
-        "projectPath": "C:\\Users\\elire\\source\\repos\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin).csproj",
+        "projectPath": "C:\\Users\\elire\\source\\repos\\GC Labs\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin).csproj",
         "packagesPath": "C:\\Users\\elire\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elire\\source\\repos\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin)\\obj\\",
+        "outputPath": "C:\\Users\\elire\\source\\repos\\GC Labs\\GCLab4 (Pig Latin)\\GCLab4 (Pig Latin)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elire\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -13,3 +13,18 @@ C:\Users\elire\source\repos\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8
 C:\Users\elire\source\repos\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\GCLab4 (Pig Latin).genruntimeconfig.cache
 C:\Users\elire\source\repos\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\ref\GCLab4 (Pig Latin).dll
 C:\Users\elire\source\repos\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\GCLab4 (Pig Latin).sourcelink.json
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\bin\Debug\net8.0\GCLab4 (Pig Latin).exe
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\bin\Debug\net8.0\GCLab4 (Pig Latin).deps.json
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\bin\Debug\net8.0\GCLab4 (Pig Latin).runtimeconfig.json
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\bin\Debug\net8.0\GCLab4 (Pig Latin).dll
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\bin\Debug\net8.0\GCLab4 (Pig Latin).pdb
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\GCLab4 (Pig Latin).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\GCLab4 (Pig Latin).AssemblyInfoInputs.cache
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\GCLab4 (Pig Latin).AssemblyInfo.cs
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\GCLab4 (Pig Latin).csproj.CoreCompileInputs.cache
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\GCLab4 (Pig Latin).sourcelink.json
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\GCLab4 (Pig Latin).dll
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\refint\GCLab4 (Pig Latin).dll
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\GCLab4 (Pig Latin).pdb
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\GCLab4 (Pig Latin).genruntimeconfig.cache
+C:\Users\elire\source\repos\GC Labs\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\ref\GCLab4 (Pig Latin).dll
