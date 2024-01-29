@@ -12,3 +12,4 @@ C:\Users\elire\source\repos\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8
 C:\Users\elire\source\repos\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\GCLab4 (Pig Latin).pdb
 C:\Users\elire\source\repos\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\GCLab4 (Pig Latin).genruntimeconfig.cache
 C:\Users\elire\source\repos\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\ref\GCLab4 (Pig Latin).dll
+C:\Users\elire\source\repos\GCLab4 (Pig Latin)\GCLab4 (Pig Latin)\obj\Debug\net8.0\GCLab4 (Pig Latin).sourcelink.json
