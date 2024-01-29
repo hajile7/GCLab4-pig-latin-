@@ -8,8 +8,8 @@ while (runProgram) {
     //welcome message
     Console.WriteLine("Welcome to the pig latin translator");
 
-    //get input
-    Console.WriteLine("Please enter a word you'd like translated");
+    //get user input
+    Console.WriteLine("Please enter a word or sentence you'd like translated");
     string word = Console.ReadLine().Trim(); //removed ToLower() to satify extendeds
 
     //make sure string is not empty and loop to get good input
@@ -23,10 +23,12 @@ while (runProgram) {
      * punctuation to be included in our user input so long as the punctuation doesn't push the first vowel outside of the
      * first 5 spots. Could hard code more cases, but assuming there is more efficient way
      */
+    string[] words = word.Split(" "); //create an array of strings isolate the words in a provided sentence
+    foreach (string w in words) //use a foreach loop to run each word in the array through the vowelSpot code and sorting conditionals
     {
         int vowelSpot = -1;
         {
-            foreach (char letter in word)
+            foreach (char letter in w)
             {
                 vowelSpot += 1;
                 if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u' || letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U')
@@ -40,54 +42,55 @@ while (runProgram) {
         string beforeLetters = "";
         string afterLetters = "";
 
-        //hard coded line checking for special characters. Could not get a functioning solution using ascii/unicode or the .IsSymbol method. .IsPuncutation didn't seem to be working either.
-        if (hasNumber(word) || word.Contains("@") || word.Contains("$") || word.Contains("#") || word.Contains("%") || word.Contains("^") || word.Contains("*") || word.Contains("(") || word.Contains(")") || word.Contains("_") || word.Contains("=") || word.Contains("+") || word.Contains("[") || word.Contains("]") || word.Contains("{") || word.Contains("}") || word.Contains(">") || word.Contains("<"))
+        //hard coded line checking for special characters. Could not get a functioning solution using ascii/unicode or the .IsSymbol method. .IsPuncutation didn't get me there either.
+        if (hasNumber(w) || w.Contains("@") || w.Contains("$") || w.Contains("#") || w.Contains("%") || w.Contains("^") || w.Contains("*") || w.Contains("(") || w.Contains(")") || w.Contains("_") || w.Contains("=") || w.Contains("+") || w.Contains("[") || w.Contains("]") || w.Contains("{") || w.Contains("}") || w.Contains(">") || w.Contains("<"))
         {
             translatedWord = word;
         }
-        //translating conditionals whose rules are based on the first vowel position. I've included up until position 5.
+        //translating conditionals whose rules are based on the first vowel position. I've included up until position 5
         else if (vowelSpot == 0)
         {
-            translatedWord = word + "way";
+            translatedWord = w + "way";
         }
         else if (vowelSpot == 1)
         {
-            beforeLetters = word.Substring(0, 1);
-            afterLetters = word.Substring(1);
+            beforeLetters = w.Substring(0, 1);
+            afterLetters = w.Substring(1);
             translatedWord = afterLetters + beforeLetters + "ay";
         }
         else if (vowelSpot == 2)
         {
-            beforeLetters = word.Substring(0, 2);
-            afterLetters = word.Substring(2);
+            beforeLetters = w.Substring(0, 2);
+            afterLetters = w.Substring(2);
             translatedWord = afterLetters + beforeLetters + "ay";
         }
         else if (vowelSpot == 3)
         {
-            beforeLetters = word.Substring(0, 3);
-            afterLetters = word.Substring(3);
+            beforeLetters = w.Substring(0, 3);
+            afterLetters = w.Substring(3);
             translatedWord = afterLetters + beforeLetters + "ay";
         }
         else if (vowelSpot == 4)
         {
-            beforeLetters = word.Substring(0, 4);
-            afterLetters = word.Substring(4);
+            beforeLetters = w.Substring(0, 4);
+            afterLetters = w.Substring(4);
             translatedWord = afterLetters + beforeLetters + "ay";
         }
         else if (vowelSpot == 5)
         {
-            beforeLetters = word.Substring(0, 5);
-            afterLetters = word.Substring(5);
+            beforeLetters = w.Substring(0, 5);
+            afterLetters = w.Substring(5);
             translatedWord = afterLetters + beforeLetters + "ay";
         }
 
         //show user their translated word
-        Console.WriteLine(translatedWord);
+        Console.Write(translatedWord + " ");
+    
     }
-    //ask user if they'd like to continue using the program
+    //ask user if they'd like to translate another word or sentence
     while (true)
     {
-        Console.WriteLine("Would you like to translate another word? y/n");
+        Console.WriteLine("\nWould you like to translate another word or sentence? y/n");
         string progChoice = Console.ReadLine().ToLower().Trim();
         if (progChoice == "y")
         {
