@@ -4,7 +4,8 @@ using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
 bool runProgram = true;
-while (runProgram) {
+while (runProgram) 
+{
 
     //welcome message
     Console.WriteLine("Welcome to the Pig Latin translator");
@@ -13,6 +14,18 @@ while (runProgram) {
     Console.Write("Please enter a word or sentence you'd like translated: ");
     string word = Console.ReadLine().Trim(); //removed ToLower() to satify extendeds
 
+    //create a for loop to get puncuation after creating a var to store it
+    string punctuation = "";
+    for (int i = 0; i < word.Length; i++)
+    {
+        if (word[i] == '!' || word[i] == '?' || word[i] == '.')
+        {
+            punctuation = word[i].ToString();
+            word = word.Remove(i, 1);
+            Console.WriteLine(word);
+        }
+    }
+
     //make sure string is not empty and loop to get good input
     while (isWhiteSpace(word))
     {
@@ -20,7 +33,7 @@ while (runProgram) {
         word = Console.ReadLine().Trim();
     }
 
-    //eliminate any extra white space that may be between text via Regex. This method replaces all instances of more than one space with a single space
+    //eliminate any extra white space that may be between text via regular expression. This expression replaces all instances of more than one space with a single space
     word = Regex.Replace(word, @"\s+", " ");
 
     /*this loop is going to tell us the position of the first vowel in the given word. once there, we break from the loop.
@@ -89,9 +102,14 @@ while (runProgram) {
         }
 
         //show user their translated word
+        string totalTranslate = translatedWord + " ";
         Console.Write(translatedWord + " ");
     
     }
+
+    //add punctuation
+    Console.Write("\b" + punctuation);
+
     //ask user if they'd like to translate another word or sentence
     while (true)
     {
@@ -106,6 +124,10 @@ while (runProgram) {
             Console.WriteLine("Thank you for using the Pig Latin translator!");
             runProgram = false;
             break;
+        }
+        else
+        {
+            Console.WriteLine("invalid");
         }
     }
 }
